@@ -1,0 +1,97 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+html, body {
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+    padding: 0;
+    background-image: url('images/man1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo img{
+    width: 90px;
+    margin-right: 250px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 350px;
+}
+.navbar ul li{
+    color: white;
+    padding: 15px;
+    
+}
+.item_1 a{
+    color: white;
+    text-decoration: none
+}
+.item_1 a:hover{
+
+    color: yellow;
+}
+.item_1 a:active{
+    color: yellow;
+}
+
+.header .photo {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* أو استخدم space-between للتوزيع بالتساوي */
+  }
+  
+  .photo .item {
+    position: relative;
+    width: calc(20% - 20px); /* افتراض أن هناك هامش 4px */
+    margin: 2px; /* هامش بين العناصر */
+  }
+  
+  .item img {
+
+    width: 100%;
+    height: auto;
+    display: block; /* لتجنب أي هوامش افتراضية أسفل الصورة */
+  }
+  
+  .write {
+    position: absolute;
+    bottom: 10px; /* أو حسب المكان الذي تريد أن يظهر فيه السعر */
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* لجعل النص يبرز عن الصورة */
+    padding: 5px;
+    width: calc(100% - 20px); /* لتأخذ النصوص عرض الصورة كاملاً باستثناء الهوامش */
+  }
+  
+  .item h3 {
+    margin: 0;
+    text-align: center; /* لتوسيط النص داخل الـ div */
+  }
+  .hide h4{
+    text-decoration: line-through;
+    text-align: center;
+    color: royalblue;
+  }

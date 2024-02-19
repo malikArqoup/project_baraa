@@ -1,0 +1,200 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo img{
+    width: 90px;
+    margin-right: 250px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 350px;
+}
+.navbar ul li{
+    color: white;
+    padding: 15px;
+    
+}
+.item_1 a{
+    color: white;
+    text-decoration: none
+}
+.item_1 a:hover{
+
+  color: yellow;
+}
+.item_1 a:active{
+  color: yellow;
+}
+
+.header{
+    height: 100vh;
+    background-image: url('images/header-bg.jpg');
+    background-repeat: no-repeat;
+     background-attachment:scroll;
+     background-size: 100% 100%;
+}
+.header .Write{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.Write .itemate{
+margin-top: 80px;
+}
+.Write h1{
+text-align: center;
+font-size: 2.25rem;
+font-style: italic;
+line-height: 2.25rem;
+margin-bottom: 2rem;
+color: #efdbdb;
+text-shadow: 1px 1px 2px #ed4e4e;
+
+}
+.Write h2{
+    color: aliceblue;
+}
+
+  .container .ALL{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+    
+  }
+   .ALL .image1{
+    margin: 0 15px;
+  }
+
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .image1{
+    position: relative;
+  }
+  .writeinphoto{
+    color: rgb(124, 61, 61);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .writeinphoto input{
+    font-size: 20px; 
+    padding: 15px 30px; 
+    border: none; 
+    cursor: pointer; 
+    background-color: #ebe9e1; 
+    color: rgb(32, 31, 31);
+    border-radius: 5px; 
+    margin-top: 25px;  }
+  .writeinphoto h2{
+    margin-bottom: -20px;
+  }
+  .image1 img:hover {
+    opacity: 0.7; /* تعتيم الصورة */
+    filter: brightness(50%); /* تقليل سطوع الصورة */
+  }
+  .image1 img:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); /* إضافة ظل حول الصورة */
+  }
+  .image1:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* ظل داكن فوق الصورة */
+    pointer-events: none; /* لضمان أن العنصر الغطاء لا يؤثر على التفاعل مع الصورة */
+  }
+  
+ .container .itamvidio{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .container .itamvidio video{
+    width: 50%;
+    margin-bottom: 50px;
+ }
+ .itamvidio h2{
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .Contact
+ {
+    
+    background-image: url('images/427878322_1579881149492760_1863598268018181443_n.png');
+    height: 92vh;
+    background-repeat: no-repeat;
+     background-attachment:scroll;
+     background-size: 100% 100%;
+ }
+ .Contact h2{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+ }
+ .Contact .submit{
+    font-size: 15px; 
+    padding: 15px 30px; 
+    border: none; 
+    cursor: pointer; 
+    background-color: #ffc800; 
+    color: white;
+    border-radius: 5px; 
+    margin-top: 10px;
+ }
+ .Contact input{
+  font-size: larger;
+ }
+ .Contact .container form{
+  text-align: center;
+ }
+ .Contact .insta{
+  text-align: center;
+  margin-top: 100px;
+ 
+  
+ }
+ .insta a{
+  color:white;
+  font-size:xx-large;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 30%; /* قم بتعديل هذه القيمة حسب الحاجة */
+  /* إضافة حدود إذا أردت */
+  border: 2px solid white; /* مثال لإضافة حد أبيض */
+  
+
+ }
+
+ 

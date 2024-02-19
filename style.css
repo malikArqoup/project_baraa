@@ -1,0 +1,60 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+    padding: 0;
+    background-image: url('images/kh.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.contener {
+    width: 80%;
+    text-align: center; /* Center the text within the container */
+}
+
+.hello {
+    margin-top: -100px; /* Adjust this value to center your content as needed */
+}
+
+.hello h3 {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    color: white;
+    
+}
+
+.hello h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    color: white;
+    margin-top: 50px;
+}
+
+.submit {
+    font-size: 20px; 
+    padding: 15px 30px; 
+    border: none; 
+    cursor: pointer; 
+    background-color: #ffc800; 
+    color: white;
+    border-radius: 5px; 
+    margin-top: 25px;
+}
